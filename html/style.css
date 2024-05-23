@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.table-container {
+    width: 50%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+th:hover, td:hover {
+    background-color: #f1f1f1;
+}
+
+.secondary-table-container {
+    display: none;
+    margin-top: 20px;
+}

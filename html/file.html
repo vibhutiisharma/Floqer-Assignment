@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Engineer Salaries and Job Titles</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="graph-container">
+            <canvas id="lineChart"></canvas>
+        </div>
+        <div class="table-container">
+            <table id="salaryTable">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable(0)">Year</th>
+                        <th onclick="sortTable(1)">Total Jobs</th>
+                        <th onclick="sortTable(2)">Average Salary (USD)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div id="secondaryTableContainer" class="secondary-table-container">
+            <table id="secondaryTable">
+                <thead>
+                    <tr>
+                        <th>Job Title</th>
+                        <th>Number of Jobs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
